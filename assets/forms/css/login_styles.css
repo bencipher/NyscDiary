@@ -1,0 +1,69 @@
+<style>
+<link href="<?php echo base_url().'assets/font-awesome/css/font-awesome.min.css'; ?>" rel="stylesheet">
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+*{
+	margin:0;
+	padding:0
+}
+body{
+	background:url("<?php echo base_url().'assets/images/welcome/nysc-login.jpg'?>");
+	font-family: 'Source Sans Pro', sans-serif
+}
+#r{
+	padding-top: 2px;
+}
+.form{width:400px; margin:0 auto; background:#1C2B4A; margin-top:150px}
+.header{height:44px; background:#17233B}
+.header h2{height:44px; line-height:44px; color:#fff; text-align:center}
+.login{padding:0 20px;position: relative;left: 5%;}
+.boxes{margin: 0 40px 0 0; margin-left: -5%;}
+.login span.un{width:10%; text-align:center; color:#0C6; border-radius:3px 0 0 3px}
+.text{background:#12192C; width:90%; border-radius:0 3px 3px 0; border:none; outline:none; color:#999; font-family: 'Source Sans Pro', sans-serif} 
+.text,.login span.un{display:inline-block; vertical-align:top; height:40px; line-height:40px; background:#12192C;}
+
+.btn{height:40px; border:none; background:#0C6; width:100%; outline:none; font-family: 'Source Sans Pro', sans-serif; font-size:20px; font-weight:bold; color:#eee; border-bottom:solid 3px #093; border-radius:3px; cursor:pointer}
+ul li{height:40px; margin:15px 0; padding: 0 auto; list-style:none; position: relative;}
+.span{display:table; width:90%; font-size:14px; position: relative;}
+.ch{display:inline-block; width:50%; float:left; color:#CCC; text-transform: lowercase;}
+.ch a{color:#ddd; text-decoration:none}
+.ch:nth-child(2){text-align:right}
+/*social*/
+.social{height:30px; line-height:30px; display:table; width:100%; text-align: center; position: relative;left: -5.8%;}
+.social div{display:inline-block; width:42%; color:#eee; font-size:12px; text-align:center; border-radius:3px;  border-color: #fff;}
+.social div i.fa{font-size:16px; line-height:30px; margin: 0 auto}
+.fb{background:#3B5A9A; border-bottom:solid 3px #036} .tw{background:#2CA8D2; margin-left:5px; border-bottom:solid 3px #3399CC}
+/*bottom*/
+.sign{clear: both; width:90%; padding:0 5%; height:50px; display:table; background:#17233B; text-align: center;}
+.sign div{display:inline-block; width:50%; line-height:50px; color:#ccc; font-size:14px; float: right; margin-right: -2.7%;}
+.up{text-align:right; position: relative;left: 7%;}
+.up a{padding: 0; display:block; background:#096; text-align:center; height:35px; line-height:35px; width:50%; font-size:16px; text-decoration:none; color:#eee; border-bottom:solid 3px #006633; border-radius:3px; font-weight:bold; margin:5% 0 0 5%;}
+.up a:hover{background-color: #eee;border-color: #ddd; color: #222; quotes: "Register new account here";}
+ul li input.btn{height:40px; margin-bottom: 10px; list-style:none; width: 91%;}
+input[type="text"], input[type="Password"]{
+    background: #ffffff none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color #3B5A9A;
+    border-image: none;
+    border-style: none none none solid;
+    border-width: medium medium medium 1%;
+    color: #666666;
+    cursor: pointer;
+    font-family: "Open Sans",sans-serif;
+    outline: medium none;
+    transition: all 0.3s ease-out 0s;
+    }
+    input[type=submit] {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	background: #40A46F;
+	border: 1px solid #40A46F;
+	cursor: pointer;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	outline:none;
+	-webkit-appearance: none;
+}
+@media(max-width:480px){ .form{width:100%}}
+</style>
