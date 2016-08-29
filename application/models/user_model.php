@@ -37,7 +37,7 @@ class User_model extends CI_Model {
 			'width' => 150,
 			'height' => 100
 		);
-		
+		////////just testing
 		$this->load->library('image_lib', $config);
 		$this->image_lib->resize();
 		
