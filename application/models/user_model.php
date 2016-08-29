@@ -36,6 +36,8 @@ class User_model extends CI_Model {
 			'maintain_ration' => true,
 			'width' => 150,
 			'height' => 100
+			
+			////
 		);
 		
 		$this->load->library('image_lib', $config);
